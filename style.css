@@ -22,8 +22,9 @@
     width: fit-content;
     margin: auto;
     filter: drop-shadow(5px 5px 10px black);
-
-    margin-top: 100px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     margin-top: 100px;
 }
 
 body {
@@ -87,3 +88,4 @@ body, html {
   background-color: #555;
   color: white;
 }
+
