@@ -15,7 +15,9 @@
 }
 
 .container > h1 {
-    font-size: 90px;
+     font-size: clamp(2rem, 8vw, 6rem); /* scales nicely on all screens */
+  font-weight: bold;
+  display: inline-block;
     background-image: linear-gradient(90deg in hsl longer hue, rgb(247, 130, 130), rgb(255, 143, 143));
     background-clip: text;
     color: transparent;
@@ -89,3 +91,9 @@ body, html {
   color: white;
 }
 
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
